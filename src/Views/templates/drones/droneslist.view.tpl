@@ -43,7 +43,7 @@
                 <th>Modelo</th>
                 <th>Tipo</th>
                 <th>Precio</th>
-                <th><a href="index.php?page=drones_manager&mode=INS">Nuevo</a></th>
+                <th><a href="index.php?page=drones_dronesform&mode=INS">Nuevo</a></th>
             </tr>
         </thead>
         <tbody>
@@ -56,8 +56,8 @@
                 <td>{{tipo}}</td>
                 <td>{{precio}}</td>
                 <td>
-                    <a href="index.php?page=drones_manager&mode=UPD&id={{id}}">Editar</a> |
-                    <a href="index.php?page=drones_manager&mode=DEL&id={{id}}}">Eliminar</a>
+                    <a href="index.php?page=drones_dronesform&mode=UPD&id={{id}}">Editar</a> |
+                    <a href="index.php?page=drones_dronesform&mode=DEL&id={{id}}}">Eliminar</a>
                 </td>
             </tr>
             {{endfor drones}}
