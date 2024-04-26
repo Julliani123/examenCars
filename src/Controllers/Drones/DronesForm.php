@@ -24,7 +24,7 @@ class DronesForm extends PublicController
         "tipo" => "",
         "precio" => 0
     ];
-    private $url = "index.php?page=Drones_Drones";
+    private $url = "index.php?page=Drones_DronesList";
     private $mode = 'INS';
     private $viewData = [];
     private $error = [];
