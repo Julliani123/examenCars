@@ -54,7 +54,8 @@
     <label for="id">ID Dron</label>
     <input type="text" id="id" name="id" value="{{id}}" readonly />
     {{if id_error}}
-    <div class="text-red-500 text-sm">{{id_error}}</div>{{endif id_error}}
+    <div class="text-red-500 text-sm">{{id_error}}</div>
+    {{endif id_error}}
     <br>
     <label for="nombre">Nombre</label>
     <input type="text" id="nombre" name="nombre" placeholder="Nombre del dron" value="{{nombre}}" {{if ~readonly}}
@@ -65,7 +66,7 @@
     <label for="fabricante">Fabricante</label>
     <input type="text" id="fabricante" name="fabricante" placeholder="Fabricante del dron" value="{{fabricante}}"
         {{if ~readonly}} readonly {{endif ~readonly}} />
-    {{if fabricante_error}}
+
     <label for="modelo">Modelo</label>
     <input type="text" id="modelo" name="modelo" placeholder="Modelo del dron" value="{{modelo}}" {{if ~readonly}}
         readonly {{endif ~readonly}} />
